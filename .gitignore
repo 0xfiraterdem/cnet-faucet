@@ -1,0 +1,7 @@
+
+.env
+cnet_faucet/__pycache__/
+venv
+faucet/__pycache__/
+db.sqlite3
+*.pem
