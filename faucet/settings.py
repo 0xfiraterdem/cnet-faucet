@@ -43,7 +43,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CORS_ALLOW_CREDENTIALS = True  # Eğer kimlik doğrulama bilgilerini göndermek istiyorsanız
+CORS_ALLOW_CREDENTIALS = True  
 
 ROOT_URLCONF = 'faucet.urls'
 
