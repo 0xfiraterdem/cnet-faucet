@@ -20,7 +20,6 @@ class NonceManager:
         self.nonce += 1
 
 
-# UserSigner oluştur
 signer = UserSigner.from_pem_file(Path("cnet_faucet/wallet.pem"))
 provider = ProxyNetworkProvider("https://testnet-gateway.cyber.network")
 
