@@ -44,7 +44,6 @@ def faucet(request):
     else:
         faucet_request.request_time = timezone.now()
 
-    # Transaction gönderme işlevini çağırma
     from .send_cnet import send_transaction
     send_transaction(wallet_address)
 
